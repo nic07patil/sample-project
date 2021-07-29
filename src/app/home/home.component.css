@@ -1,0 +1,46 @@
+.heading{
+    text-align: center;
+    margin-left: 13%;
+    color: green;
+}
+@media screen and (max-width: 700px) {
+    .heading{
+        text-align: center;
+        margin-left: 0%;
+    }
+}
+
+span {
+    font-weight: bold;
+    background: lightgray;
+    padding: .3em .8em;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid;
+    font-size: 19px;
+    border-radius: 5px;
+    
+}
+ span:hover {
+    background-color: lightgray;
+  }
+
+
+.my-container{
+    padding: 3em;
+    border: 4px solid lightgray;
+    margin-bottom: 1em;
+    margin-left: 23%;
+    margin-right: 8%;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 25px;
+    
+}
+@media screen and (max-width: 700px) {
+    .my-container {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}

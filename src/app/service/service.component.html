@@ -1,0 +1,18 @@
+<div class="primary-sec">
+  <h1>Our Services</h1>
+</div>
+
+<table border="1" align="center" >
+  <tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Point</td>
+  </tr>
+
+  <tr *ngFor="let obj of model">
+    <td>{{obj.firstname}}</td>
+    <td>{{obj.lastname}}</td>
+    <td>{{obj.point}}</td>
+
+  </tr>
+<table>

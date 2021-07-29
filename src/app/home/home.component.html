@@ -1,0 +1,23 @@
+<div class="heading">
+  <h1>Welcome To Home!!!</h1>
+</div>
+
+<div class="my-container">
+    <p>You Have Clicked <span (click)="countClick()">Here</span> {{ clickCounter }} Times. </p>
+</div>
+
+<div class="my-container" [ngStyle]="{
+  'background-color': clickCounter > 5 ? '#DAF7A6' : 'lightgrey',
+  'border':           clickCounter > 5 ? '4px solid #c6e882' : 'none'
+}">
+   
+
+
+  <ng-template [ngIf]="clickCounter > 5" [ngIfElse]="none">
+    <p>The Click Counter <strong>IS GREATER</strong> Than 5 </p>
+  </ng-template>
+
+  <ng-template #none>
+    <p>The Click Counter <strong>IS NOT GREATER</strong> Than 5 </p>
+  </ng-template>
+</div>

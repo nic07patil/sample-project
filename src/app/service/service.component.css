@@ -1,0 +1,19 @@
+.primary-sec{
+    text-align: center;
+}
+
+table{
+    overflow: auto;
+    /* border-collapse: collapse; */
+  border-spacing: 0;
+  width: 50%;
+  /* border: 1px solid #ddd; */
+  font-size: 20px;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
